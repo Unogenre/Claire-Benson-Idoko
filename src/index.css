@@ -59,7 +59,7 @@ img { max-width: 100%; display: block; }
 .mobile-nav { display: none; }
 
 .hero-section { min-height: 100svh; max-width: 1440px; margin: auto; padding: 150px 7vw 80px; position: relative; display: flex; align-items: center; }
-.hero-grid { width: 100%; display: grid; grid-template-columns: minmax(0, .88fr) minmax(390px, .72fr); align-items: center; gap: clamp(50px, 8vw, 140px); }
+.hero-grid { width: 100%; display: grid; grid-template-columns: minmax(0, .8fr) minmax(460px, .95fr); align-items: center; gap: clamp(50px, 8vw, 140px); }
 .hero-copy { position: relative; z-index: 1; }
 .eyebrow { display: flex; align-items: center; gap: 12px; color: var(--clay); text-transform: uppercase; letter-spacing: .23em; font-size: .64rem; font-weight: 800; margin: 0 0 26px; }
 .eyebrow-line { width: 37px; height: 1px; background: currentColor; display: block; }
@@ -80,7 +80,7 @@ h1 em, h2 em { font-style: italic; color: var(--forest); font-weight: 400; }
 .text-link:hover { color: var(--clay); gap: 13px; }
 .hero-signature { display: flex; align-items: center; gap: 12px; margin-top: 67px; color: var(--clay); font-size: .58rem; letter-spacing: .16em; text-transform: uppercase; }
 .signature-rule { width: 28px; height: 1px; background: var(--sand); }
-.hero-visual { position: relative; z-index: 1; max-width: 535px; justify-self: end; }
+.hero-visual { position: relative; z-index: 1; max-width: 720px; justify-self: end; }
 .hero-image-frame {
   aspect-ratio: .78;
   position: relative;
